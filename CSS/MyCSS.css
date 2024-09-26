@@ -1,0 +1,29 @@
+h1{	font-family:"Times New Roman", Times, serif;
+	/* font-family: myFirstFont; */
+	font-style:italic;
+	font-size:30px;
+	/* font-size: 100%; */
+	font-weight:bold;
+
+	color:green;
+	text-align:center;
+	text-decoration:underline;
+	text-transform:capitalize;
+	letter-spacing:3px;
+
+    @font-face{font-family:myFirstFont; src:url(sansation_light.woff);}
+
+    a:link, a:visited{
+         background-color:#f44336;
+         color:white;
+         padding:14px 25px;
+         text-align:center;
+         text-decoration:none;
+         display:inline-block;
+        }
+        
+        a:hover, a:active{
+         background-color:red;
+        }
+        
+}
